@@ -1,6 +1,7 @@
 package com.bankonet;
 
 
+
 public class Client {
 	
 	private String identifiant;
@@ -83,6 +84,4 @@ public class Client {
 	public void setCompteEpargne(CompteEpargne compteEpargne) {
 		this.compteEpargne = compteEpargne;
 	}
-
-	
 }
