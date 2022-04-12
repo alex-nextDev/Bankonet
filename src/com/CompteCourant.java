@@ -3,7 +3,6 @@ package com.bankonet;
 public final class CompteCourant extends Compte {
 	
 	
-	
 	private double montantDecouvertAutorise; 
 	//private static int nbCompteCourant = 0;
 	
@@ -26,7 +25,6 @@ public final class CompteCourant extends Compte {
 
 		return mess;
 	}
-	
 	
 	
 	/*
@@ -58,6 +56,4 @@ public final class CompteCourant extends Compte {
 	public void setMontantDecouvertAutorise(double montantDecouvertAutorise) {
 		this.montantDecouvertAutorise = montantDecouvertAutorise;
 	}
-
-
 }
