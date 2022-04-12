@@ -1,7 +1,5 @@
 package com.bankonet;
 
-
-
 public class Client {
 	
 	private String identifiant;
