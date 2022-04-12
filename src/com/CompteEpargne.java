@@ -3,7 +3,6 @@ package com.bankonet;
 public class CompteEpargne extends Compte {
 	
 	
-	
 	private double tauxInteret;
 	
 	
@@ -51,6 +50,5 @@ public class CompteEpargne extends Compte {
 	}
 	public void setTauxInteret(double tauxInteret) {
 		this.tauxInteret = tauxInteret;
-	}
-	
+	}	
 }
