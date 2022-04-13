@@ -23,8 +23,8 @@ public class TestCompteCourant {
 			    unCompteCourant2.crediter(40.00);
 			    unCompteCourant2.debiter(24.00);
 				
-				unCompteCourant3.crediter(10.00);
-				unCompteCourant3.debiter(100.00);
+			    unCompteCourant3.crediter(10.00);
+			    unCompteCourant3.debiter(100.00);
 				
 				
 				int solde = 1000;
