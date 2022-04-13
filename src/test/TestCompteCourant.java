@@ -6,9 +6,7 @@ import com.bankonet.DebitException;
 public class TestCompteCourant {
 
 	public static void main(String[] args) throws DebitException {
-		
-				
-				
+			
 			   CompteCourant unCompteCourant1 = new CompteCourant("1 ", "Num Compte 1", 120000.00, 30000.00);
 			   CompteCourant unCompteCourant2 = new CompteCourant("2", "Num Compte 2", 10.00, 300.00);
 			   CompteCourant unCompteCourant3 = new CompteCourant("3", "Num Compte 3", 0.00, 0.00);
@@ -19,7 +17,7 @@ public class TestCompteCourant {
 			    compteCourantTab[2] = unCompteCourant3;
 			    
 			  
-			        unCompteCourant1.crediter(40.00);
+			    unCompteCourant1.crediter(40.00);
 				unCompteCourant1.debiter(24.00);
 				
 				unCompteCourant2.crediter(40.00);
