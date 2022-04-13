@@ -20,8 +20,8 @@ public class TestCompteCourant {
 			    unCompteCourant1.crediter(40.00);
 			    unCompteCourant1.debiter(24.00);
 				
-				unCompteCourant2.crediter(40.00);
-				unCompteCourant2.debiter(24.00);
+			    unCompteCourant2.crediter(40.00);
+			    unCompteCourant2.debiter(24.00);
 				
 				unCompteCourant3.crediter(10.00);
 				unCompteCourant3.debiter(100.00);
