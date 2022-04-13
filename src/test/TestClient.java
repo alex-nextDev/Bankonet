@@ -1,6 +1,5 @@
 package com.bankonet.test;
 
-
 import com.bankonet.Client;
 import com.bankonet.Compte;
 import com.bankonet.CompteCourant;
@@ -43,7 +42,5 @@ public class TestClient {
 		
 		compte1.effectuerVirement(compte3, 300.00);
 		System.out.println(compte3.getSolde());
-
 	}
-
 }
