@@ -2,9 +2,7 @@ package com.bankonet;
 
 public class CompteEpargne extends Compte {
 	
-	
 	private double tauxInteret;
-	
 	
 	public CompteEpargne(String numero, String intitule, double solde, double tauxInteret)
 	{
