@@ -21,12 +21,10 @@ public class CompteEpargne extends Compte {
 
 		return mess;
 	}
-	
-	
+		
 /*
  * Vérifier que solde - montant > 0.
  */
-
 
 	public boolean debitAutorise(double montant)
 	{
