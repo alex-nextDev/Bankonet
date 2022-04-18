@@ -56,7 +56,6 @@ public abstract class Compte {
 		    compte.crediter(montant);
 	}
   
-
 	public String getNumero() {
 		return numero;
 	}
