@@ -10,7 +10,7 @@ public class TestClient {
 
 	public static void main(String[] args) throws CompteException {
 		
-		
+		//Création des clients
 		Client client1 = new Client("N0-0FTHEB34ST", "Bruce", "Dickinson", new CompteCourant("1", "Num Compte 1", 120000.00, -30000.00), new CompteEpargne("BD01", "Num Epargne 01", 20000.00, 5.00));
 		Client client2 = new Client("N0-US3L3SST4LK", "Silent", "Bob", new CompteCourant("2", "Num Compte 2", 10.00, -300.00), new CompteEpargne("SB01", "Num Epargne 02", 100.00, 2.00));
 		Client client3 = new Client("N0-W444444444Y", "Chronic", "Jay", new CompteCourant("3", "Num COmpte 3", 1.00, -100.00), new CompteEpargne("CJ01", "Num Epargne 03", 1.00, 1.00));
